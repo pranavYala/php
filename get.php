@@ -2,7 +2,7 @@
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'http://corfu-hotel.gr/wp-json/wp/v2/posts');
+curl_setopt($ch, CURLOPT_URL, '<website>/wp-json/wp/v2/posts');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 $headers = array(
