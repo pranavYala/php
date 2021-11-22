@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://www.corfu-hotel.gr/wp-json/wp/v2/posts/1881',
+  CURLOPT_URL => '<website>/wp-json/wp/v2/posts/<id>',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
