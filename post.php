@@ -11,7 +11,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS => array('title' => 'Postman Test 2','description' => 'Random listing created 2'),
+  CURLOPT_POSTFIELDS => array('title' => $_POST['title'],'description' => $_POST['desc'], 'content' => $_POST['cont']),
   CURLOPT_HTTPHEADER => array(
     'Authorization: Basic YWRtaW46Vk85cSBhYzhPIERXS3cgdzR6UyBIeTNEIGw4d1k='
   ),
